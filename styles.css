@@ -1,0 +1,68 @@
+
+
+#title {
+  color: #b91c1c;
+  margin-bottom: 1.2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+
+#img-div {
+  margin: 0 auto 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+#img-caption {
+  margin-top: 0.8rem;
+  color: #374151;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+#tribute-info {
+  margin: 2rem 0 2.5rem 0;
+  color: #22223b;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  /* text-align: left; */
+}
+
+#tribute-link {
+  display:inline-block;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  padding: 0.4em 1.2em;
+  background: #f3f4f6;
+  text-align:center;
+  /* justify-content: center; */
+}
+#tribute-link:hover {
+  color: #fff;
+  background: #2563eb;
+
+  text-decoration: underline;
+}
+#tribute-link:focus {
+  outline: 2px solid #b91c1c;
+  outline-offset: 2px;
+}
+#tribute-link:active {
+  color: #fff;
+  background: #b91c1c;
+}
